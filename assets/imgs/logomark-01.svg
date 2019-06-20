@@ -1,0 +1,11 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve" class="pre_svg">
+
+	<g id="circles">
+        <path id="path_1" style="fill:#F5C071;" d="M25,8l-13,8l-9-5L20.4,0.3L24.9,3L25,8z"/>
+        <path id="path_2" style="fill:#F5C071;" d="M12,16v15.7l-9,5.2V11L12,16z"/>
+        <path id="path_3" style="fill:#F5C071;" d="M25.2,39.5L25,49.9l-22-13l9-5.2L25.2,39.5z"/>
+        <path id="path_4" style="fill:#F5C071;" d="M38.5,31.8l8.5,5.1l-22,13l0.2-10.4L38.5,31.8z"/>
+        <path id="path_5" style="fill:#F5C071;" d="M47,36.9l-8.5-5.1l0-10.4l-9.2,5.3L25,24.1l-0.2-5.7L42.8,8.2l4.2,2.6V36.9z"/>
+    </g>
+
+</svg>

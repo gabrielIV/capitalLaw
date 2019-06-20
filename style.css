@@ -1,0 +1,738 @@
+/*
+  ==============================
+  @author Jackson A. Chegenye
+  @contact chegenyejackson@gmail.com
+  jchegenye.me
+  =============================
+*/
+
+html { visibility:hidden; } /*Hide page until everything is loaded*/
+body{
+    /*font: 16px/30px "merriweather-regular", serif !important;*/
+    background-color: #000 !important;
+}
+
+/*.progress_2{
+  display: none;
+}
+
+.progress_3{
+  display: block;
+}*/
+/*.progress_bar_hide{
+  display: none;
+}*/
+/*#practice_areas,
+#about,
+#team,
+#contact{
+  display: none;
+}*/
+.page_entrance{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 5px;
+  background-color:#f5c071;
+}
+
+.section .form-control{
+  border: 0;
+  border-bottom: 1px solid #ced4da;
+  background-color: #ffffff00;
+}
+.form-control:focus {
+    background-color: #ffffff00 !important;
+    border-color: #80bdff00 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0) !important;
+}
+.section .btn{
+  background-color: #f5c071;
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.section .form-horizontal{
+  padding-left: 11vw;
+    padding-right: 11vw;
+}
+
+#section2 .explore_more_content .container-fluid {
+    top: 20vh;
+    position: relative;
+}
+
+
+#section2 .intro i{
+  padding-right: 15px;
+  font-size: 20px;
+}
+#section2 .intro span{
+  font-size: 20px;
+}
+
+#section2 .intro a.link_close{
+  display: none;
+}
+
+.progress_bar{
+  position: absolute;
+  top: 0;
+  z-index: 999999;
+  height:5px;
+}
+
+.preloader {
+  width: 100%; 
+  right:100px;
+  height: 100%;
+  /*background-color: #fff;*/
+  z-index: 99999;
+  position: fixed;
+  align-items: center;
+  display: flex;/*flex*/
+  justify-content: center;
+}
+.preloader .pre_svg{
+  height: 10%; 
+  z-index: 99999;
+  position: relative;
+}
+.preloader .pre_text{
+  margin-left: 15px;
+  font-family: 'Borda 10';
+  font-size: 25px;
+  color: #fff;
+  position: relative;
+}
+
+#home p, #section0_pa p,
+#home h1, h2, h3, h4, h5, h6, #section0_pa h1, h2, h3, h4, h5, h6,
+#home a, #section0_pa a,
+#home i, #section0_pa i,
+#home span, #section0_pa span,
+#section2 .intro{
+  color: white;
+  text-decoration: none;
+}
+
+.section #about{
+  background-color: #1a2e35;
+}
+
+/*Section 1*/
+#home .fp-tableCell{
+  background-color: #0000007d; /*#000000ba*/
+}
+#home .home_title{
+  font-size: 8vw;
+  line-height: 7vw;
+  font-weight: 700;
+  padding-left: 5vw;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#home .home_bg_curtains_1{
+  background-color: #00000085; /*#00000085*/
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+#home .home_bg_curtains_2{
+    background-color: #00000085; /*#00000085*/
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+.home_fixed_bottom{
+    bottom: 2.5vw;
+    z-index: 1030;
+    position: absolute !important;
+    /*padding: 0px !important;*/
+    left: 8.6vw;
+}
+.home_fixed_bottom nav{
+  padding:0; 
+}
+.home_fixed_top{
+  top: 0;
+  left: 0;
+  z-index: 1030;
+  position: absolute;
+  margin-left: 8vw;
+  margin-top: 8vw;
+}
+.home_fixed_bottom .link{
+    display: inline-block;
+    padding-bottom: 0px;
+    font-weight: bolder;
+    color: #F5C071 !important;
+    padding: .5rem 0.4rem;
+}
+.home_fixed_bottom span{
+    font-weight: 300; 
+}
+.home_fixed_bottom .author{
+  color: #F5C071 !important;
+}
+.practice_area{
+  right: 0;
+    z-index: 1030;
+    position: fixed;
+    margin-right: 5vw
+}
+
+.back_to_practive_area a{
+  color: #ffffff;
+    font-size: 0.70em;
+    border: 0;
+    font-weight: 900;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background: #00000070;
+    margin: 40px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 2px #ffffff;
+    z-index: 1030;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.back_to_practive_area a:hover{ 
+  color: #a7a7a7;
+  text-decoration: none;
+  box-shadow: 0px 0px 15px 2px #888888;
+}
+
+/*logo*/
+#homelogo{
+  left: 10vw;
+  z-index: 1030;
+  position: absolute;
+  margin-right: 8vw;
+  margin-top: 2.5vw;
+  text-decoration: none;
+}
+.logo{    
+    height: 50px;
+}
+.pre_text_logo{
+  position: relative;
+  display: inline-flex;
+  font-family: 'Borda 10';
+  color: #fff;
+  padding-left: 10px;
+}
+
+/*hamburger Vertical*/
+.hamburger_line_v, .hamburger_line_v:before, .hamburger_line_v:after {
+    width: 32px;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}
+.hamburger_line_v:before, .hamburger_line_v:after{
+    content: '';
+    display: block;
+}
+.hamburger_line_v:before {
+    width: 40px;
+    top: 8px;
+}
+.hamburger_line_v:after{
+    width: 28px;
+    top: 16px;
+}
+
+/*hamburger X*/
+.hamburger_line_x {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    z-index: 999;
+    -webkit-transition: all .25s cubic-bezier(0.615, 0.19, 0.305, 0.91) 0s;
+    -moz-transition: all .25s cubic-bezier(0.615, 0.19, 0.305, 0.91) 0s;
+    -ms-transition: all .25s cubic-bezier(0.615, 0.19, 0.305, 0.91) 0s;
+    -o-transition: all .25s cubic-bezier(0.615, 0.19, 0.305, 0.91) 0s;
+    transition: all .25s cubic-bezier(0.615, 0.19, 0.305, 0.91) 0s;
+}
+.hamburger_line_x, .hamburger_line_x:before{
+    width: 28px;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}
+
+.hamburger_line_x{
+  -webkit-transform: translateY(4px) rotate(135deg);
+    -moz-transform: translateY(4px) rotate(135deg);
+    -ms-transform: translateY(4px) rotate(135deg);
+    -o-transform: translateY(4px) rotate(135deg);
+    transform: translateY(4px) rotate(135deg);
+}
+
+.hamburger_line_x:before{
+    content: '';
+    display: block;
+}
+.hamburger_line_x:before {
+    webkit-transform: translateY(-16px) rotate(-270deg);
+    -moz-transform: translateY(-16px) rotate(-270deg);
+    -ms-transform: translateY(-16px) rotate(-270deg);
+    -o-transform: translateY(-16px) rotate(-270deg);
+    transform: translateY(-16px) rotate(-270deg);
+    width: 28px;
+    top: 16px;
+    bottom: 0px;
+}
+
+.menus_capital{
+  display: inherit !important;
+}
+
+/*Section 2*/
+#section0_pa .practice_areas_menu_bg{
+  background-color: #0c54608c;
+  width: 100%;
+  opacity: 0.9;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+#section0_pa .menu_links{
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+#section2 .intro  a{
+  color: #F5C071 !important;
+  text-decoration: none;
+}
+
+.fp-controlArrow.fp-prev {
+    border-width: 0px !important;
+}
+.fp-controlArrow.fp-next {
+    border-width: 0px !important;
+    padding-left: 50px !important;
+}
+
+.fp-controlArrow.fp-next:before {
+  font-family: FontAwesome;
+  content: "\f061"; 
+    color: #e6b56cab;
+    border: 2px solid #e6b56cab;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fp-controlArrow.fp-prev:before {
+  font-family: FontAwesome;
+  content: "\f060";
+    color: #e6b56cab;
+    border: 2px solid #e6b56cab;
+    border-radius: 50%;
+    padding: 10px;
+}
+#section2 .fp-tableCell{
+  background-color: #0000004f;
+}
+
+.fp-controlArrow{
+  width: inherit !important;
+    margin-top: -60px !important;
+    top: initial!important;
+    left: 10.1% !important;
+    right: initial !important;
+}
+
+#section2 .intro h1{
+  font-size: 7vw;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+/*#contact .text_read_more,
+#team .text_read_more,
+#about .text_read_more{
+  color: #ffffff;
+}*/
+
+
+/*FULL PAGE STYLE*/
+
+.section{ 
+  position: fixed;
+  width: 100%; height: 100%; top: 0; left: 0;
+  animation: 1s linear;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.section:nth-child(1){
+  background-image: url('assets/imgs/home_page.jpg');
+  z-index: 9;
+}
+.section:nth-child(2){
+  background-image: url('assets/imgs/practice_area/practice_area.jpg');
+  z-index: 8;
+}
+
+#corporate_finance{
+  background-image: url('assets/imgs/practice_area/corprate_finance.jpg');
+  z-index: 7;
+}
+#capital_market{
+  background-image: url('assets/imgs/practice_area/capital_market.jpg');
+  z-index: 6;
+}
+
+#banking{
+  background-image: url('assets/imgs/practice_area/banking.jpg');
+  z-index: 6;
+}
+#registration_compliance{
+  background-image: url('assets/imgs/practice_area/RegistrationCompliance.jpg');
+  z-index: 6;
+}
+#real_estate{
+  background-image: url('assets/imgs/practice_area/real_estate.jpg');
+  z-index: 6;
+}
+#dispute_resolution{
+  background-image: url('assets/imgs/practice_area/dispute_resolution.jpg');
+  z-index: 6;
+}
+
+#contact .contact_map{
+  background-image: url('assets/imgs/map');
+  z-index: -1;
+}
+
+#contact .contact_map {
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0px;
+}
+
+/*#about{
+  background-image: url('assets/imgs/james-donovan-180295');
+  z-index: 6;
+}*/
+#about_curtain{
+  background-image: url(assets/imgs/logomark-01.svg);
+  position: absolute;
+  right: -500px;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.2;
+}
+#contact{
+  background-image: url('assets/imgs/james-donovan-180295');
+  z-index: 6;
+}
+
+#corporate_finance, #capital_market, #contact{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#contact,
+#team,
+#about{
+  background-color: #fff;
+}
+
+/*#about_curtain_bg{
+  background-color: #0c5460;
+  width: 100%;
+  opacity: 0.9;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}*/
+
+.section.prev.down{
+  animation-name: toup;
+}
+.section.active.up{
+  animation-name: fromup;
+}
+.section.active.down{
+  animation-name: fromdown;
+  z-index: 12;
+}
+.section.next.up{
+  animation-name: todown;
+  z-index: 12;
+}
+@keyframes fromdown {
+  from {
+    transform:translateY(50%);
+  }
+  100% {
+    transform:translateY(0%);
+  }
+}
+
+@keyframes toup {
+  from {
+    z-index: 20;
+    transform:translateY(0%);
+  }
+  100% {
+    z-index: 20;
+    transform:translateY(-100%);
+  }
+}
+
+@keyframes fromup {
+  from {
+    z-index: 20;
+    transform:translateY(-100%);
+  }
+  100% {
+    z-index: 20;
+    transform:translateY(0%);
+  }
+}
+@keyframes todown {
+  from {
+    transform:translateY(0%);
+  }
+  100% {
+    transform:translateY(50%);
+  }
+}
+
+
+/*Our Team*/
+
+#team .text_read_more img{
+  width: 100%
+}
+#team .heading_one{ 
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  height: 100%;
+  font-weight: 900;
+  text-align: center;
+  font-size: 2em;
+}
+#team .team_bio h5{
+  font-weight: 900;
+}
+
+#team .sub_heading{
+  font-weight: 600;
+}
+
+
+#team .team_bio{
+  display: none;
+}
+
+#team .team_bio h6{
+  font-weight: 100;
+}
+/*#team .team_bio {
+  margin-top: 50%;
+  margin-bottom: 50%;
+}*/
+/*#team svg {
+  margin: auto;
+  position: absolute;
+  top: 18%;
+  padding: 35px 15px;
+}*/
+#team image,
+#team g {
+  z-index:-1 !important;
+}
+#team path{
+  fill: #0000000f;
+}
+
+{
+  background-color: #0580ec;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#contact .contact_bg{
+  background-color: #00000085;
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+#contact .contact_curtain_right{
+  position: absolute;
+  background-color: #fffffff2;
+  width: 16em;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+#contact .contact_curtain_left{
+  background-color: #fff;
+  width: 80em;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+#practice_areas .practice_areas_head{
+  color: #fff;
+}
+#practice_areas .practice_areas_head,
+#about .about_head,
+#contact .contact_head{
+    font-size: 5.6875vw;
+    letter-spacing: 1.3px;
+    line-height: 5.25rem;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+#contact .contact_location,
+#contact .contact_phone{
+    margin: 22px 0 0 0;
+    font-size: 1em;
+    letter-spacing: 1.3px;
+    line-height: 21px;
+}
+
+#contact .vertical_btns{
+  position: absolute;
+  top: 0;
+  right: 7.8vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transform: rotate(90deg);
+  z-index: 1;
+}
+
+#contact .close_email_map_btn,
+#contact .email_us,
+#contact .our_map{ 
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+    box-shadow: 2px 3px 4px #000000ad;
+}
+
+/*#contact .contact_map img{
+  height: 300px;
+}*/
+
+#contact .contact_box{
+  position: fixed;
+  right: 0;
+}
+#contact .form-horizontal{
+  padding-right: 8vw;
+}
+
+/*#contact .contact_map{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  right: -50%;
+  top: -50%;
+}*/
+/*#contact .contact_map img {
+     height: 100%; 
+    width: 100%;
+}*/
+
+/*#contact .contact_map img,*/
+
+#contact .contact_box,
+#contact .close_email_map_btn{
+  display: none;
+}
+/*
+#contact .our_map{
+  top: 7em;
+}*/
+.contact_share_icons{
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.coffee_bg img{
+    position: absolute;
+    width: 50%;
+    right: 16em;
+    opacity: 0.10;
+}
+
+/*ABOUT US*/
+
+/*#team .team_box{
+    overflow-y: scroll;
+    height: 450px;
+    overflow-x: hidden;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+#team .team_box::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+#team .team_box::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#team .team_box::-webkit-scrollbar-thumb {
+  background-color: #fd8927;
+  outline: 1px solid slategrey;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}*/

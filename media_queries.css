@@ -1,0 +1,142 @@
+/*
+	==============================
+	@author Jackson A. Chegenye
+	@contact chegenyejackson@gmail.com
+	=============================
+*/
+
+/* Extra Small Devices, .visible-xs-* */
+@media (max-width: 767px) {
+	.logo_mobile{
+		height: 35px;
+		top: 0;
+		right: 0;
+		margin-top: 7vw;
+		margin-right: 7vw;
+		position: fixed;
+		z-index: 1030;
+	}
+	#team .bios,
+	#section1 .home_bg_curtains_2,
+	.pre_text_logo,
+	.logo_large,
+	.practice_area,
+	.back_to_practive_area {
+	    display: none;
+	}
+	.home_fixed_bottom {
+	    left: 0;
+	    position: absolute !important;
+   	    padding: .5rem 8vw !important;
+	}
+	.home_fixed_bottom span{
+	    padding-left: 5px;
+        padding-top: 15px;
+	    border-top: 1px solid #ffffff2e;
+	}
+	.home_fixed_bottom .link{
+		padding: .1rem 0.4rem;
+	}
+	.menus_capital{
+	  padding-bottom: 0px;
+	}
+	#section1 .home_bg_curtains_1{
+		width: 25%;
+	}
+
+
+	#section0_pa,
+	#section2 .intro,
+	#practice_areas .practice_areas_head, #about .about_head, #contact .contact_head,
+	.flex-column,
+	.text_read_more{
+		padding-left: 5vw;
+	}
+	#practice_areas .practice_areas_head, #about .about_head, #contact .contact_head{
+		font-size: 2em;
+	}
+	/*.vertical_btns{
+	    position: relative;
+	    display: block;
+	    /*top: -45vh;
+	    right: 0;
+	    right: 32px;
+	}*/
+	.section .form-horizontal{
+	    padding-left: 11vw;
+	}
+
+	/*#contact .close_email_map_btn, #contact .email_us, #contact .our_map{
+		right: -14.4vw;
+	}*/
+	.hamburger_line_x:before{
+	    background-color: #000;
+	}
+
+	#Layer_1{
+	    padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+	#about_curtain{
+	    right: 0px;
+        opacity: 0.091;
+	}
+
+	#about .fp-tableCell,
+	#team .fp-tableCell,
+	#contact .fp-tableCell{
+	    display: block !important;
+	    vertical-align: top !important;
+	    margin-top: 88px;
+	    height: 100% !important;
+	    box-shadow: 0px 3px 10px #f5c071;
+	}
+	#team .heading_one{
+		margin: 15px;
+	    align-items: center;
+	    display: block;
+	    justify-content: center;
+	}
+	.home_fixed_top{
+	    margin-top: 10vw;
+	}
+	#contact .contact_location{
+		margin: 22px 50px 0px 0px;
+	}
+	/*.team_balance{
+	    margin-top: 100px;
+	}*/
+	
+	#contact .vertical_btns{
+	    right: -16vw;
+	}
+
+}
+
+/* Small Devices, .visible-sm-* */
+@media (min-width: 768px) and (max-width: 991px) { 
+	.practice_area_2,
+	.home_menu_hamburger,
+	.logo_mobile{
+		display: none;
+	}
+}
+
+/* Medium Devices, .visible-md-* */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.practice_area_2,
+	.home_menu_hamburger,
+	.logo_mobile{
+		display: none;
+	}
+}
+
+/* Large Devices, .visible-lg-* */
+@media (min-width: 1200px) {
+	.practice_area_2,
+	.home_menu_hamburger,
+	.logo_mobile{
+		display: none;
+	}
+
+}
